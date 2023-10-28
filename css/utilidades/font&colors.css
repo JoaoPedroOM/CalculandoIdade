@@ -1,0 +1,8 @@
+:root{
+  --primary-color: hsl(259, 100%, 65%);
+  --error-color: hsl(0, 100%, 67%);
+  --background2: hsl(0, 0%, 94%);
+  --details-color:hsl(0, 0%, 86%);
+  --text-color:hsl(0, 1%, 44%);
+  --text-primary: hsl(0, 0%, 8%);
+}

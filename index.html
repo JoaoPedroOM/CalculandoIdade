@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<title>Aniversário</title>
+
+  <link rel="stylesheet" href="css\style.css"> 
+  <script type="text/javascript" src="./js/main.js" defer></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,800&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <main class="container">
+    <section class="calculador">
+
+      <section class="inputs">
+
+        <div class="inputs_value">
+          <label for="day">day</label>      
+          <input type="text" name="day" id="day" placeholder="DD" required>   
+          <span class="warning"></span>
+        </div>
+
+        <div class="inputs_value">
+          <label for="month">month</label>         
+          <input type="text" name="month" id="month" placeholder="MM" required>
+          <span class="warning"></span>
+        </div>
+
+        <div class="inputs_value">
+          <label for="year">year</label>
+          <input type="text" name="year" id="year" placeholder="YYYY" required>
+          <span class="warning"></span>
+        </div>
+      </section>
+
+      <div class="detalhes">
+        <button id="btn" class="round-button"><img src="img\arrow-down.svg"></button>
+      </div>
+
+      <section class="values">
+
+        <div class="values_show">
+          <p id="showAno">--</p><span>years</span>
+        </div>
+
+        <div class="values_show">
+          <p id="showMes">--</p><span>months</span>
+        </div>
+
+        <div class="values_show">
+          <p id="showDias">--</p><span>days</span>
+        </div>
+
+      </section>
+
+    </section>
+  </main>
+
+</body>
+</html>
