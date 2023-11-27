@@ -52,9 +52,9 @@ body{
 
 .warning{
   font-family: 'Poppins', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-style: italic;
-  color: black;
+  color: var(--error-color);
 }
 
 /* Botão e detalhe */
@@ -211,4 +211,8 @@ body{
   .calculador{
     height: 45rem;
   }
+  .warning{
+    font-size: .8rem;
+  }
+
 }
