@@ -10,7 +10,7 @@ const MostraAno = document.getElementById("showAno")
 const MostraMes = document.getElementById("showMes")
 const MostraDia = document.getElementById("showDias")
 
-Mybtn.addEventListener("click", calculaData);
+Mybtn.addEventListener("click", basicValidation);
 const label = document.getElementsByTagName("label");
 const inputs = document.getElementsByTagName("input");
 const aviso = document.getElementsByClassName("warning");
